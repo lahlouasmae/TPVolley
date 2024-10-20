@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FDD5E3"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:paddingTop="100dp"
+    android:paddingBottom="10dp"
+    android:paddingLeft="20dp"
+
+     >
+
+
+    <TextView
+        android:id="@+id/nav_header_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Bienvenue à EtudiantsEnsaJEtudiants!"
+        android:textColor="@android:color/white"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/nav_header_subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="application mobile pour la gestion des etudiants"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+</LinearLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Contenu principal de l'activité, ici c'est le LinearLayout avec la ListView -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!-- Toolbar ou autre contenu optionnel en haut -->
+        <ListView
+            android:id="@+id/listViewEtudiants"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FDD5E3"
+            android:backgroundTint="#F3EEF0" />
+    </LinearLayout>
+
+    <!-- Menu Drawer, qui apparaîtra en glissant depuis la gauche -->
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/navigation_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:menu="@menu/main_meny"
+        app:headerLayout="@layout/header"
+        android:background="#f9f9f9" />
+
+</androidx.drawerlayout.widget.DrawerLayout>
