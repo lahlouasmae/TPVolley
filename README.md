@@ -70,3 +70,5 @@ L'application utilise les permissions suivantes :
 4.Exécutez l'application sur un émulateur ou un appareil physique.
 
 ## Video Descriptif
+
+https://github.com/user-attachments/assets/d7066ea3-aa3a-4523-a480-bcfac041888d
